@@ -5,7 +5,7 @@
 body {
   background-color: #f1f1f1;
   padding: 20px;
-  font-family: Arial;
+  font-family: sans-serif;
 }
 
 /* Center website */
@@ -44,7 +44,7 @@ h1 {
 
 /* Content */
 .content {
-  background-color: white;
+  background-color: gray;
   padding: 10px;
 }
 

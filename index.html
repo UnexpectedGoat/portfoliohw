@@ -1,49 +1,72 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+    <title>Single Page Javascript Website</title>
 
-    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
-    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
-
-    <title>Timothy Phillips</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <script src="assets/js/script.js"></script>
+    <link href='http://fonts.googleapis.com/css?family=PT+Sans:400,700,400italic|PT+Serif:400,700' rel='stylesheet'
+        type='text/css'>
 </head>
 
 <body>
+    <div id="wrapper">
+        <header>
+            <h1 id="logo">Timothy Phillips</h1>
+        </header>
 
+        <nav>
+            <ul>
+                <li><a href="#" id="toAbout">About</a></li>
+                <li><a href="#" id="toSocial">Social</a></li>
+                <li><a href="#" id="toContact">Contact</a></li>
+            </ul>
+        </nav>
 
-    <!-- MAIN (Center website) -->
+        <div id="content">
+            <article class="primary">
+                <article id="about">
+                    <h2>About</h2>
+                    <p>
+                        My name is Timothy Phillips, Graduate of University of Washington Tacoma's Milgard School of
+                        Business, Navy Veteran, and future Web Developer.
 
-</header>
-<section class="location-section">
-    <h1>About Me</h1>
-    <p>I'm originally from Pittsburgh, PA </p>
-</section>
-<section class="questions-section">
-    <h2>What are your favorite hobbies?</h2>
-    <p>I'm a just a human dude.</p>
+                        As an enlisted Sailor in the United States Navy, I was entrusted to make expedient, lateral, and
+                        vital decisions in leadership and ultimately in service to my country, and now I hope to
+                        transfer those skills to your company.
+                    </p>
+                </article>
 
-</section>
+                <article id="social">
+                    <h2>Social</h2>
 
-<footer class="content-footer">
-    <p>Say hi to me on these social networks:</p>
-    <ul class="social">
-        <li><a class="css-is-deranged" href="_INSERT_GITHUB_URL_HERE_">GitHub</a></li>
-        <li><a class="css-is-deranged" href="_INSERT_TWITTER_URL_HERE_">Twitter</a></li>
-        <li><a class="css-is-deranged" href="_INSERT_GOOGLE+_URL_HERE_">Google+</a></li>
-    </ul>
-            <!-- END GRID -->
+                    <p>
+                        Here are some places where you can find me on the web:
+                    </p>
+
+                    <ul>
+                        <li><a href="https://github.com/UnexpectedGoat">Github</a></li>
+
+                    </ul>
+                </article>
+
+                <article id="contact">
+                    <h2>Contact</h2>
+                    <form>
+                        <input type="text" placeholder="Name" name="name">
+                        <input type="email" placeholder="Email" name="email">
+                        <textarea noresize></textarea>
+                        <button type="submit" name="submit">Send</button>
+                </article>
+            </article><!-- primary article tag -->
         </div>
-        <div class="navbar">
-            <a href="Index.html"></i>Index</a> 
-            <a href="portfolio.html"></i> Portfolio</a> 
-            <a href="contact.html"></i>Contact</a> 
-          </div>
-        <!-- END MAIN -->
-    </div>
 
+
+
+        </footer>
+    </div>
 </body>
 
 </html>
